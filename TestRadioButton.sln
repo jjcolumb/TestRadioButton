@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRadioButton.Module", "TestRadioButton.Module\TestRadioButton.Module.csproj", "{E6A02C51-2CBA-4748-B911-41BDED643904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRadioButton.Module.Win", "TestRadioButton.Module.Win\TestRadioButton.Module.Win.csproj", "{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRadioButton.Win", "TestRadioButton.Win\TestRadioButton.Win.csproj", "{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A02C51-2CBA-4748-B911-41BDED643904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62F9A28-6351-435D-BAC9-7E66DAB2C6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD84AE0-D9DF-4E2E-9974-EF16994EE55E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF5A14F0-E8F1-4428-9D93-C321044AE75F}
+	EndGlobalSection
+EndGlobal

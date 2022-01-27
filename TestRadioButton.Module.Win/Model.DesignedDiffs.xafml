@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="TestRadioButton.Module.BusinessObjects.CustomEditor">
+      <OwnMembers>
+        <Member Name="SelectOption" PropertyEditorType="TestRadioButton.Module.Win.Editors.RadioGroupEnumPropertyEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="21.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CustomEditor_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="20.038535645472063">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="CustomEditor" RelativeSize="100">
+              <LayoutItem Id="Name" RelativeSize="30.76923076923077" />
+              <LayoutItem Id="SelectOption" CaptionLocation="Top" RelativeSize="40.384615384615387" />
+              <LayoutItem Id="Phone" RelativeSize="28.846153846153847" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+        <LayoutItem Id="Item1" Index="1" RelativeSize="79.961464354527934" IsNewNode="True" />
+      </Layout>
+    </DetailView>
+    <ListView Id="CustomEditor_ListView">
+      <Columns>
+        <ColumnInfo Id="SelectOption" Index="-1" />
+        <ColumnInfo Id="Phone" Index="1" />
+      </Columns>
+    </ListView>
+    <DetailView Id="RadioButtonByHand_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="RadioButtonByHand" RelativeSize="100">
+              <LayoutGroup Id="RadioButtonByHand_col1" RelativeSize="50">
+                <LayoutItem Id="Name" RelativeSize="6.6945606694560666" />
+                <LayoutItem Id="Phone" RelativeSize="5.02092050209205" />
+                <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" TextAlignMode="AlignWithChildren" Index="2" RelativeSize="88.28451882845188" Caption="Select Option" IsNewNode="True">
+                  <LayoutItem Id="Option1" ViewItem="Option1" Index="0" RelativeSize="7.969151670951157" IsNewNode="True" />
+                  <LayoutItem Id="Option2" ViewItem="Option2" Index="1" RelativeSize="5.9125964010282779" IsNewNode="True" />
+                  <LayoutItem Id="Option3" ViewItem="Option3" Index="2" RelativeSize="5.9125964010282779" IsNewNode="True" />
+                  <LayoutItem Id="Item2" Index="3" RelativeSize="80.205655526992288" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Option1" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="RadioButtonByHand_col2" TextAlignMode="UseParentOptions" RelativeSize="50" Caption="RadioButtonByHand_col2">
+                <LayoutItem Id="Option3" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="Option2" RelativeSize="6.485355648535565" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="RadioButtonByHand_ListView">
+      <Columns>
+        <ColumnInfo Id="Option1" SortIndex="0" SortOrder="Descending" Index="-1" />
+        <ColumnInfo Id="Option2" Index="-1" />
+        <ColumnInfo Id="Option3" Index="-1" />
+        <ColumnInfo Id="Name" SortIndex="-1" SortOrder="None" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
